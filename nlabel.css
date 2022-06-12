@@ -12,6 +12,7 @@ body {
 .Label {
   background-color: #020202;
   width: 70%;
+  max-width: 500px;
   margin: 20px auto;
   padding: 10px;
 }
@@ -30,16 +31,47 @@ h1 {
 header p {
   text-align: center;
 }
-.right {
-  float: right;
-}
+
 .details {
   background-color: #3d3c41;
-  padding: 0 5px;
+  padding: 1px 8px;
 }
 
-.inline {
-  display: inline;
+.details p {
+}
+
+.flex {
+  display: flex;
+}
+
+.left {
+  text-align: left;
+  width: 33.33%;
+}
+
+.md {
+  text-align: right;
+  width: 33.33%;
+}
+
+.right {
+  text-align: right;
+  width: 33.33%;
+}
+
+.space {
+  width: 100%;
+  height: 1px;
+  margin: 0;
+  border: none;
+}
+
+.sm-text {
+  font-size: 0.9rem;
+}
+.x-sm {
+  font-size: 0.6rem;
+  margin: 2px 0;
 }
 
 .blue {
@@ -53,4 +85,34 @@ header p {
 }
 .b {
   border-top: none;
+}
+
+.indent {
+  margin-left: 1em;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.center {
+  text-align: center;
+}
+.ft-details h2 {
+  background-color: rgb(128, 129, 133);
+  padding: 2px 0 4px 0;
+}
+.ft-details .blue {
+  border-bottom: solid 2px #089bca;
+
+  width: 80%;
+  margin: -14px auto 1px auto;
+}
+
+.ft-details .divider {
+  border-color: #089bca;
+}
+footer {
+  text-align: center;
+}
+
+a:visited {
+  color: #089bca;
 }
