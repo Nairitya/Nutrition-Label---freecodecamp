@@ -13,6 +13,7 @@ body {
   background-color: #020202;
   width: 70%;
   max-width: 500px;
+  min-width: 350px;
   margin: 20px auto;
   padding: 10px;
 }
@@ -38,6 +39,7 @@ header p {
 }
 
 .details p {
+  flex-wrap: wrap;
 }
 
 .flex {
